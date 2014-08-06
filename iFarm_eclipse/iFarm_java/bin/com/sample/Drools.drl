@@ -1,0 +1,47 @@
+package com.sample
+ 
+import com.sample.LeapViewer
+import com.sample.State
+import java.util.ArrayList
+import javax.swing.JOptionPane;
+ 
+import javax.swing.JFrame 
+        
+global JFrame frame 
+
+rule Bootstrap
+    when
+        a : State(name == "Ex1", state == State.NOTRUN )
+    then
+        System.out.println(a.getName() + " started" );
+        a.setState( State.FINISHED );
+end
+
+ 
+rule "A to B"
+    when
+        State(name == "Ex1", state == State.FINISHED )
+        b : State(name == "Ex1 Done", state == State.NOTRUN )
+    then
+        System.out.println(b.getName() + " fist repetition finished" );
+        b.setState( State.FINISHED );
+end
+
+rule "B to C"
+    salience 10
+    when
+        State(name == "B", state == State.FINISHED )
+        c : State(name == "C", state == State.NOTRUN )
+    then
+        System.out.println(c.getName() + " finished" );
+        c.setState( State.FINISHED );
+end
+
+rule "B to D"
+    when
+        State(name == "B", state == State.FINISHED )
+        d : State(name == "D", state == State.NOTRUN )
+    then
+        System.out.println(d.getName() + " finished" );
+        d.setState( State.FINISHED );
+end

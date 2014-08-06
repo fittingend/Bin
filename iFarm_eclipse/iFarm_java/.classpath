@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/rules"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="DROOLS/Drools"/>
+	<classpathentry kind="lib" path="C:/Users/techfest2012/Desktop/Oh SuJin/LeapDeveloperKit_2.0.0+15464_win/LeapSDK/lib/LeapJava.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/techfest2012/Desktop/Oh SuJin/LeapDeveloperKit_2.0.0+15464_win/LeapSDK/lib/x86"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/techfest2012/Desktop/Oh SuJin/RXTXcomm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/techfest2012/Desktop/NJC E-STAR/Downloads/rabbitmq-java-client-bin-3.3.4/rabbitmq-java-client-bin-3.3.4/commons-cli-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/techfest2012/Desktop/NJC E-STAR/Downloads/rabbitmq-java-client-bin-3.3.4/rabbitmq-java-client-bin-3.3.4/commons-io-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/techfest2012/Desktop/NJC E-STAR/Downloads/rabbitmq-java-client-bin-3.3.4/rabbitmq-java-client-bin-3.3.4/rabbitmq-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/techfest2012/Desktop/NJC E-STAR/Downloads/commons-lang3-3.3.2-bin/commons-lang3-3.3.2/commons-lang3-3.3.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/techfest2012/Desktop/NJC E-STAR/Downloads/commons-lang3-3.3.2-bin/commons-lang3-3.3.2/apidocs/org"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/techfest2012/Desktop/NJC E-STAR/Downloads/commons-lang3-3.3.2-bin/commons-lang3-3.3.2/commons-lang3-3.3.2-javadoc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/techfest2012/Desktop/NJC E-STAR/Downloads/commons-lang3-3.3.2-bin/commons-lang3-3.3.2/apidocs"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
